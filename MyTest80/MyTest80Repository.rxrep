@@ -1,0 +1,109 @@
+﻿<repository
+id="607c4c37-3dfa-433d-936c-8558f436510d"
+name="MyTest80Repository">
+	<codegen
+	classname="MyTest80Repository"
+	namespace="MyTest80">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="764b759f-ac15-4eb9-a885-1b84e9c0da7e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="2173d82e-6a35-4788-b335-1b348aa09a62"
+		isrooted="True"
+		name="RxMainFrame"
+		refpath="/form[@controlname='RxMainFrame']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			addcaps="tabpage,control,nativewindow"
+			capname="tabpage"
+			id="20ce308f-b674-4482-b2a4-316ac82356e8"
+			isrooted="True"
+			name="RxTabIntroduction"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabIntroduction']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,control,nativewindow"
+				capname="button"
+				id="2a6e4802-e489-4da5-87c1-0811015d1a7e"
+				name="BtnSubmitUserName"
+				refimgid="c5f6cf87-f122-4b53-9e62-cff814b70988"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage/button[@controlname='btnSubmitUserName']"
+				robustPath=""
+				searchtimeout="30000ms">
+					<image
+					guid="21fe4f7f-f05a-42c7-ae79-3cd9666888a2"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAAFQAAAAeCAYAAACyqDnLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAFhJREFUaEPt0CEBADAMBLH5d/yoM3EwIAbyth0doTGhMaExoTGhMaEx
+oTGhMaExoTGhMaExoTGhMaExoTGhMaExoTGhMaExoTGhMaExoTGhMaExoTGhqd0Hwf6Jq+ZMCvEA
+AAAASUVORK5CYII=
+					</image>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']
+				</item>
+				<item
+				addcaps="link,control,nativewindow"
+				capname="link"
+				id="4dd554ad-39d4-4ae8-a62a-ab23ade9501c"
+				name="RxLinkBtnReset"
+				refimgid="07218a7a-c27a-4c25-bdd1-eab8f18ae593"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage/link[@controlname='RxLinkBtnReset']"
+				robustPath=""
+				searchtimeout="30000ms">
+					<image
+					guid="bf6ff4c4-c8ab-4db9-a0c9-b8f539bb3197"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAACwAAAATCAYAAADrqO95AAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAC9JREFUSEvtzqENAAAIwDD+/3gKrpggmajvAPtJYVthW2FbYVthW2Fb
+YVthW2EXe44SyN1eo2yaAAAAAElFTkSuQmCC
+					</image>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/link[@controlname='RxLinkBtnReset']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="20dfe008-6756-43d8-8da2-2b3741f88e71"
+				name="TxtUserName"
+				refimgid="9aa71c55-a556-4e9e-b1c4-5d34330da08d"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage/text[@controlname='txtUserName']"
+				robustPath=""
+				searchtimeout="30000ms">
+					<image
+					guid="b53d7bb7-1491-426a-b99f-42d8b3e7db2a"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAAN8AAAAdCAYAAAAq2bmTAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAGhJREFUeF7t0yEBACAABDH6N34FLTgzsQg72y7wn3wQkQ8i8kFEPojI
+BxH5ICIfROSDiHwQkQ8i8kFEPojIBxH5ICIfROSDiHwQkQ8i8kFEPojIBxH5ICIfROSDiHwQkQ8i
+8kFEPkjsPswq5f1lpxUZAAAAAElFTkSuQmCC
+					</image>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='txtUserName']
+				</item>
+				<basepath>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@controlname='RxMainFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACdSURBVDhPY0AGISEhlUFBQb+IxDOg2iAgODj4
+FBB3QbmkA6Dm/yD6AZvwvPvsQhvhmBUTXxcW5gVrQgYgA9LS0ljvcwpZ3GcXdsSH/zOEMkO1IQDI
+ACD+DcSfsGCQHLpYLVQrBAAF/tfX1zNBuXhBeHi4AlD9bygXAkAGQJlEgVEDhrUBjBAeYYBhADB7
+BoAMAeIGIvB8IAYawMAAAA20kY5E9ZbiAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
